@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="weather.js" defer></script>
+    <title>Weather APP</title>
+</head>
+<body>
+    <div id="menu">
+        <input type="text" id="searchField">
+        <button id="btn">Search</button>
+        <div id="cityError"></div>
+    </div>
+    <div id="content">
+        <p id="temp">Temperature</p>
+        <div class="switch-field">
+            <input type="radio" id="radio-one" name="switch-one" value="Fahrenheit" />
+            <label for="radio-one">Fahrenheit</label>
+            <input type="radio" id="radio-two" name="switch-one" value="Celsius" checked/>
+            <label for="radio-two">Celsius</label>
+        </div>
+        <p id="weather">Weather</p>
+        <img src="#" alt="Weather-description">
+    
+    </div>
+</body>
+</html>
